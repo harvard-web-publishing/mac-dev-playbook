@@ -38,6 +38,8 @@ homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - autoconf
   - bash-completion
+  - colima
+  - ddev
   - doxygen
   - gettext
   - gifsicle
@@ -52,6 +54,7 @@ homebrew_installed_packages:
   - mcrypt
   - nmap
   - node
+  - nss
   - nvm
   - php
   - ssh-copy-id
@@ -63,7 +66,9 @@ homebrew_installed_packages:
   - wrk
   - zsh-history-substring-search
 
-homebrew_taps: []
+homebrew_taps:
+  - ddev/ddev
+  - ngrok/ngrok
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -75,6 +80,7 @@ homebrew_cask_apps:
   - handbrake
   - licecap
   - sequel-ace
+  - ngrok
   - slack
   - sublime-text
   - transmit
