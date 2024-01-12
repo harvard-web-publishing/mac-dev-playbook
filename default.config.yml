@@ -81,6 +81,7 @@ homebrew_cask_apps:
   - handbrake
   - licecap
   - sequel-ace
+  - macvim
   - ngrok
   - slack
   - sublime-text
@@ -130,6 +131,23 @@ sublime_package_control:
   - "SublimeLinter-contrib-yamllint"
   - "TrailingSpaces"
   - "WordCount"
+
+configure_vim: true
+vim_base_path: ~/.vim
+vim_package_path: pack/vendor
+vim_packages:
+  - name: fugitive
+    url: https://github.com/tpope/vim-fugitive.git
+    type: start
+  - name: vim-colors-solarized
+    url: https://github.com/altercation/vim-colors-solarized.git
+    type: opt
+  - name: nerdtree
+    url: https://github.com/preservim/nerdtree.git
+    type: start
+  - name: vdebug
+    url: https://github.com/vim-vdebug/vdebug.git
+    type: start
 
 # Glob pattern to ansible task files to run after all other tasks are finished.
 post_provision_tasks: []

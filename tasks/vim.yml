@@ -1,0 +1,16 @@
+---
+- name: Ensure Vim directories exist.
+  file:
+    path: "{{ item }}"
+    state: directory
+  loop:
+    - "{{ vim_base_path }}/{{ vim_package_path }}"
+
+- name: Ensure Vim Packages are available.
+  git:
+    repo: "{{ item.url }}"
+    dest: "{{ vim_base_path }}/{{ vim_package_path }}/{{ item.type }}/{{ item.name }}"
+    clone: yes
+    update: yes
+    recursive: no
+  with_items: "{{ vim_packages }}"

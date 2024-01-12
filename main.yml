@@ -50,6 +50,10 @@
       when: configure_ssh
       tags: ['ssh']
 
+    - import_tasks: tasks/vim.yml
+      when: configure_vim
+      tags: ['vim']
+
     - name: Run post-provision task files in a block.
       tags: ['post']
       block:
