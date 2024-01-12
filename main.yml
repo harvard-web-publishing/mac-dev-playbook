@@ -46,6 +46,10 @@
       when: configure_sublime
       tags: ['sublime-text']
 
+    - import_tasks: tasks/ssh.yml
+      when: configure_ssh
+      tags: ['ssh']
+
     - name: Run post-provision task files in a block.
       tags: ['post']
       block:
