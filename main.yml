@@ -25,6 +25,11 @@
     - role: geerlingguy.mac.dock
       when: configure_dock
       tags: ['dock']
+    - role: gantsign.visual-studio-code
+      when: configure_vscode
+      tags: ['vscode']
+      vars:
+        visual_studio_code_skip_add_repo: true
 
   tasks:
     - import_tasks: tasks/sudoers.yml

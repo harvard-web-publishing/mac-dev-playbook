@@ -149,5 +149,7 @@ vim_packages:
     url: https://github.com/vim-vdebug/vdebug.git
     type: start
 
+configure_vscode: true
+
 # Glob pattern to ansible task files to run after all other tasks are finished.
 post_provision_tasks: []
