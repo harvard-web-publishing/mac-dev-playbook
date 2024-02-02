@@ -149,5 +149,33 @@ vim_packages:
     url: https://github.com/vim-vdebug/vdebug.git
     type: start
 
+configure_vscode: true
+vscode_extensions:
+  # - andrewdavidblum.drupal-smart-snippets
+  # - bmewburn.vscode-intelephense-client
+  # - clemenspeters.format-json
+  # - dmitrydorofeev.empty-indent
+  # - ikappas.composer
+  # - juniormucciolo.drupal-7-snippets
+  # - marcostazi.vs-code-drupal
+  # - mblode.twig-language-2
+  # - ms-azuretools.vscode-docker
+  # - ms-python.isort
+  # - ms-python.python
+  # - ms-python.vscode-pylance
+  # - ms-toolsai.jupyter-2023.11.1100101639-darwin-arm64 # FIXME
+  # - ms-toolsai.jupyter-keymap
+  # - ms-toolsai.jupyter-renderers
+  # - ms-toolsai.vscode-jupyter-cell-tags
+  # - ms-toolsai.vscode-jupyter-slideshow
+  # - ms-vscode-remote.remote-containers
+  # - neilbrayfield.php-docblocker
+  # - pauloamgomes.drupal7-hooks-snippets
+  # - ritwickdey.liveserver
+  # - tsega.drupal-8-javascript-snippets
+  # - tsega.drupal-8-twig-snippets
+  # - valeryanm.vscode-phpsab
+  - xdebug.php-debug
+
 # Glob pattern to ansible task files to run after all other tasks are finished.
 post_provision_tasks: []
