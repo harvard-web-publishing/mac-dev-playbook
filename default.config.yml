@@ -39,7 +39,7 @@ homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - autoconf
   - bash-completion
-  - colima
+  - lima
   - ddev
   - doxygen
   - gettext
