@@ -58,6 +58,7 @@ homebrew_installed_packages:
   - nss
   - nvm
   - openssl
+  - parallel
   - php
   - pv
   - readline
@@ -74,6 +75,7 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - chromedriver
+  - claude-code
   - docker
   - dropbox
   - firefox
