@@ -39,30 +39,30 @@ homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - autoconf
   - bash-completion
-  - lima
+  - cowsay
   - ddev
   - doxygen
   - gettext
+  - gh
   - gifsicle
   - git
-  - gh
   - go
   - gpg
   - httpie
   - iperf
   - libevent
-  - sqlite
+  - lima
   - mcrypt
   - nmap
   - node
   - nss
   - nvm
-  - php
-  - ssh-copy-id
-  - cowsay
-  - readline
   - openssl
+  - php
   - pv
+  - readline
+  - sqlite
+  - ssh-copy-id
   - wget
   - wrk
   - zsh-history-substring-search
@@ -80,9 +80,9 @@ homebrew_cask_apps:
   - google-chrome
   - handbrake
   - licecap
-  - sequel-ace
   - macvim
   - ngrok
+  - sequel-ace
   - slack
   - sublime-text
   - transmit
